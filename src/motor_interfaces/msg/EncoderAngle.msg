@@ -1,2 +1,0 @@
-uint32 timestamp
-float32 angle

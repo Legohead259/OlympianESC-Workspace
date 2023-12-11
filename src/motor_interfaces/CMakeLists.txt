@@ -27,12 +27,13 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "action/Home.action"  
+  "msg/AngularAcceleration.msg"
   "msg/AngularVelocity.msg"
-  "msg/EncoderAngle.msg"
-  "msg/EncoderPosition.msg"
-  "msg/MotorDirection.msg"
+  "msg/AngularPosition.msg"
+  "msg/MotorStatus.msg"
+  "srv/SetControllerMode.srv"
   "srv/SetMotorDirection.srv"
-  "srv/SetTargetVelocity.srv"
+  "srv/SetTarget.srv"
 )
 
 ament_package()
