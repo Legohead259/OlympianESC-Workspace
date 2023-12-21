@@ -1,3 +1,4 @@
 [submodule "src/motor_interfaces"]
 	path = src/motor_interfaces
 	url = https://github.com/Legohead259/MicroROS-ESC-Interfaces
+	branch = main
