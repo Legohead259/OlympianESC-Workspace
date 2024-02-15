@@ -7,3 +7,7 @@
 	path = src/micro_ros_setup
 	url = https://github.com/micro-ROS/micro_ros_setup.git
 	branch = iron
+
+[submodule "src/micro_ros_rtt"]
+	path = src/micro_ros_rtt
+	url = https://github.com/micro-ROS/micro-ROS-rtt.git
