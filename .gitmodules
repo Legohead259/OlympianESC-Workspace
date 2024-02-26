@@ -1,6 +1,6 @@
 [submodule "src/motor_interfaces"]
 	path = src/motor_interfaces
-	url = https://github.com/Legohead259/MicroROS-ESC-Interfaces
+	url = https://github.com/Legohead259/OlympusESC-Interfaces
 	branch = main
 
 [submodule "src/micro_ros_setup"]
